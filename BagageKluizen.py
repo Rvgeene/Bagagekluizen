@@ -1,8 +1,8 @@
 import os.path
 
 kluisnummers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12','13']
-# kreeg het niet werkent met list(range(1,14)
-# kluis #13 is gebruikt als default kluis omdat de code niet kon aantonen hoeveel kluizen er waren als er geen in gebruik waren
+
+# kluis #13 is gebruikt als default kluis
 def kluismenu():
 
     print('\u001b[33mWelkom bij onze kluizen: Kies een nummer uit het menu ')
