@@ -1,8 +1,8 @@
 import os.path
 
-kluisnummers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12','13']
+kluisnummers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
 
-# kluis #13 is gebruikt als default kluis
+
 def kluismenu():
 
     print('\u001b[33mWelkom bij onze kluizen: Kies een nummer uit het menu ')
@@ -42,9 +42,9 @@ def beschikbaar():
             splitNumber = line.split()[0]
 
             if splitNumber in kluisnummers:
-                kluisnummers.remove(splitNumber)
+             kluisnummers.remove(splitNumber)
 
-                print(len(kluisnummers), 'zijn beschikbaar')
+        print(len(kluisnummers), 'zijn beschikbaar')
 
 def nieuwekluis():
 
@@ -136,10 +136,9 @@ def openkluis():
                     print('Kluis is geopent')
 
                 else:
-                    print('Wachtwoord is onjuist')
+                    print('Het wachtwoord is onjuist')
 
-            else:
-                print('Er is geen kluis gevonden')
+
 
     else:
 
